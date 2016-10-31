@@ -238,9 +238,9 @@ class Cost_Matrix (object):
 
         #default values to make debugging faster
         #origin_in.value = 'blockpoints3_cape'
-        destination_in.value ='Cape_Cod_Merged2'
+        #destination_in.value ='Cape_Cod_Merged2'
         time_of_day.value = "9/17/2016"
-        outTbl.value = r"L:\Public\jbousqui\AED\GIS\Cape\TestResults.gdb"
+        #outTbl.value = r"L:\Public\jbousqui\AED\GIS\Cape\TestResults.gdb"
         
         params = [origin_in, destination_in, travel_modes, time_of_day, time_zone, outTbl, st]
         return params
